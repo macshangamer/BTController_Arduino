@@ -44,6 +44,16 @@ void loop()
   }
 }
 
+void Task1()
+{
+  //Task1
+}
+
+void Task2()
+{
+  //Task2
+}
+
 void ExecuteBTCMD(String command)
 {
   String cmd = command;
@@ -55,12 +65,14 @@ void ExecuteBTCMD(String command)
   if(cmd.equals(BTCMD_one))
   {
     Serial.println("Task 1");
+    Task1();
     //digitalWrite(ledpin_pos,HIGH);
   }
 
   if(cmd.equals(BTCMD_two))
   {
     Serial.println("Task 2");
+    Task2();
     //digitalWrite(ledpin_pos,LOW);
     
   }
